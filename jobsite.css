@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px 2px 2px 2px;
+    
+}
+
+.head-container{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    position: sticky;
+}
+.head-container > div{
+    height: 30px;    
+}
+
+#home,#signup,#employeepost{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#home:hover,#signup:hover,#employeepost:hover{
+    border-bottom: 2px solid rgb(70, 96, 241);
+}
+
+#home{
+    width: 70px;
+    margin-top: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+#heading{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 3.5em;
+    font-style: normal;
+    align-self: center;
+    justify-self: center;
+  
+}
+
+#signup{
+    width: 65px;
+    margin-top: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+#employeepost{
+    width: 150px;
+    margin-top: 20px;
+    justify-self: center;
+    align-self: center;
+}
